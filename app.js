@@ -327,10 +327,10 @@ function addFakeListing(title, author, price, contact, imgUrl) {
 function renderFakeListings() {
   fakeListsBox.innerHTML = "";
 
-   addFakeListing("MATHEMATICS", "AG MUGARI", "R150", "0601234567", "https://sdmntprwestus.oaiusercontent.com/files/00000000-2fc8-6230-9703-78705d4f89e1/raw?se=2025-09-13T07%3A09%3A44Z&sp=r&sv=2024-08-04&sr=b&scid=6a919c97-7053-5fb8-8a55-4e20d2b0c34b&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-12T20%3A43%3A21Z&ske=2025-09-13T20%3A43%3A21Z&sks=b&skv=2024-08-04&sig=QI9cYsdKjHiyEa%2BvP21iIy3OnbKGoBnFpAUmxkpwFxg%3D");
-  addFakeListing("PHYSICS", "AG MUGARI", "R300", "0602345678", "https://sdmntprwestus.oaiusercontent.com/files/00000000-59d0-6230-b0fb-6900c8e9ef81/raw?se=2025-09-13T07%3A09%3A44Z&sp=r&sv=2024-08-04&sr=b&scid=f78a2404-f806-5e6b-a5d9-d54e951a4dc7&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-12T20%3A44%3A56Z&ske=2025-09-13T20%3A44%3A56Z&sks=b&skv=2024-08-04&sig=Z7rFRU4c/zeXtuoYx1V1jSG0d26pydot/vyxgJ26beo%3D");
-  addFakeListing("CHEMISTRY", "AG MUGARI", "R200", "0603456789", "https://sdmntprwestus.oaiusercontent.com/files/00000000-633c-6230-ba53-4183d97dbc50/raw?se=2025-09-13T07%3A09%3A44Z&sp=r&sv=2024-08-04&sr=b&scid=30acb1ab-3326-5527-8b97-42875a9a6f46&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-12T20%3A45%3A01Z&ske=2025-09-13T20%3A45%3A01Z&sks=b&skv=2024-08-04&sig=Lg6FJoTU1iZ454D%2BYL%2B/l8UNHQRO1IiyuhHTnvo4H0E%3D");
-  addFakeListing("3in1 Java,Python&C++", "AG MUGARI", "R400", "0604567890", "https://sdmntprwestus.oaiusercontent.com/files/00000000-8cac-6230-be3a-fdf854e24357/raw?se=2025-09-13T07%3A09%3A44Z&sp=r&sv=2024-08-04&sr=b&scid=eccba7f6-3ea0-560b-a735-d41371551bcd&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-13T06%3A07%3A04Z&ske=2025-09-14T06%3A07%3A04Z&sks=b&skv=2024-08-04&sig=eoqpH39%2BaXnV3JWJ4HLntzW9y5XV3vCeYVl3V0fXtQc%3D");
+   addFakeListing("MATHEMATICS", "AG MUGARI", "R150", "0601234567", "https://images.rawpixel.com/image_800/cHJpdmF0ZS90ZW1wbGF0ZXMvZmlsZXMvY3JlYXRlX3Rvb2wvMjAyNC0wMi8wMWhxN2RtMmFiNGV3YTFkYzE2YThiNmdzOS5qcGc.jpg");
+  addFakeListing("PHYSICS", "AG MUGARI", "R300", "0602345678", "https://www.mswordcoverpages.com/wp-content/uploads/2023/05/Physics-book-cover-page-1-CRC.png");
+  addFakeListing("CHEMISTRY", "AG MUGARI", "R200", "0603456789", "https://www.mswordcoverpages.com/wp-content/uploads/2023/04/Chemistry-book-cover-page-1-CRC.png");
+  addFakeListing("3in1 Java,Python&C++", "AG MUGARI", "R400", "0604567890", "https://m.media-amazon.com/images/I/81fROgyLB+L._SL1500_.jpg");
 }
   
 
