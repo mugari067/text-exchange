@@ -21,6 +21,8 @@ h1 {
   border-radius: 8px;
   border: none;
   width: 60%;
+   box-sizing: border-box;
+   flex-shrink: 0;
 }
 button {
   padding: 0.5em 1em;
@@ -72,3 +74,50 @@ body {
 }
 
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;  /* adjust based on your design */
+  margin: 0 auto;
+  min-height: 100vh;  /* keeps page height stable */
+}
+.search-bar {
+  width: 300px;   /* fixed width */
+  height: 40px;   /* fixed height */
+  box-sizing: border-box;
+}
+/* Prevent page resize/shift */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: scroll; /* stops scrollbar shift */
+  box-sizing: border-box;
+}
+
+/* Ensure all children respect box-sizing */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Layout container for all pages */
+.app-layout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.search-bar {
+  flex: 1;              /* take available space */
+  min-width: 250px;     /* don’t shrink below this */
+  max-width: 600px;     /* don’t expand too much */
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 16px;
+}

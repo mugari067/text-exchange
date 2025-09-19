@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Bar</title>
+   <link rel="stylesheet" href="style.css" />
+  <style>
+    .search-container {
+      display: flex;
+      align-items: center;
+      background: #f5f5f5;
+      border-radius: 30px;
+      padding: 8px 15px;
+      width: 300px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .search-container input {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-size: 16px;
+      flex: 1;
+      color: #333;
+    }
+
+    .search-container input::placeholder {
+      color: #999;
+    }
+
+    .search-container .icon {
+      width: 18px;
+      height: 18px;
+      fill: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="search-container">
+    <!-- Search Icon (SVG) -->
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" 
+            stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
+    <!-- Input -->
+    <input type="text" placeholder="Search">
+    <li>
+  <a href="listings.html">Fake Listings</a>
+  <ul>
+    <li><a href="search.html">Search</a></li>
+  </ul>
+</li>
+
+  </div>
+</main>
+  
+
+<script src="app.js"></script>
+</body>
+</html>
